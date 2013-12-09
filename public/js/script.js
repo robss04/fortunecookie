@@ -94,7 +94,7 @@ $(document).ready(function () {
 
   $('.one').mouseover(function () {
     var fortune = this;
-    var animation = animations[getRandomInt(0, 2)];
+    var animation = animations[getRandomInt(0, 3)];
 
     $(fortune).addClass(animation);
 
@@ -105,7 +105,7 @@ $(document).ready(function () {
 
   $('.two').mouseover(function () {
     var fortune = this;
-    var animation = animations[getRandomInt(0, 2)];
+    var animation = animations[getRandomInt(0, 3)];
 
     $(fortune).addClass(animation);
 
@@ -116,7 +116,7 @@ $(document).ready(function () {
 
   $('.three').mouseover(function () {
     var fortune = this;
-    var animation = animations[getRandomInt(0, 2)];
+    var animation = animations[getRandomInt(0, 3)];
 
     $(fortune).addClass(animation);
 
@@ -127,7 +127,7 @@ $(document).ready(function () {
 
   $('.four').mouseover(function () {
     var fortune = this;
-    var animation = animations[getRandomInt(0, 2)];
+    var animation = animations[getRandomInt(0, 3)];
 
     $(fortune).addClass(animation);
 

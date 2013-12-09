@@ -1,0 +1,73 @@
+body {
+  font-size: 100px;
+  background-color: #F5F5F5;
+}
+
+#title h1 {
+  color: #808080;
+  font-size: 70px;
+  font-family: 'Ribeye Marrow', cursive;
+  margin: 0px;
+  padding: 0px;  
+}
+
+#title h2 {
+  color: black;
+  font-size: 56px;
+  margin: 4px;
+  line-height: 10px;
+  padding-top: 60px;
+  font-family: 'Oldenburg', cursive;
+}
+
+#title {
+  background-color: #F5F5F5;
+  text-align: center;
+}
+
+#button {
+  text-align: center;
+}
+
+#button button {
+  border: 4px solid #808080;
+  border-radius: 18px;
+  padding: 8px 14px 8px 14px;
+  font-size: 18px;
+  background-color: #F5F5F5;
+  font-family: 'Andika', sans-serif;
+}
+
+#button button:hover {
+  border: 6px solid #808080;
+  background-color: #9ACD32;
+  cursor: pointer; cursor: hand;
+  padding: 10px 16px 10px 16px;
+}
+
+#button button:active {
+  border: 6px solid #808080;
+  background-color: #9ACD32;
+  cursor: pointer; cursor: hand;
+  padding: 10px 16px 10px 16px;
+}
+
+
+#fortunecookies {
+  text-align: center;
+}
+
+
+
+#fortune {
+  text-align: center;
+  font-family: 'Oldenburg', cursive;
+  font-size: 16px;
+  max-width: 280px;
+  padding: 28px;
+  border: 1px dashed black;
+  border-radius: 4px;
+}
+
+
+

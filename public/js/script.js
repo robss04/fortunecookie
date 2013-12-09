@@ -75,26 +75,21 @@ function pickOne() {
         b.css("display", "block")
 };
 
-// $("img").hover(function(){
-//   $("img").addClass("class", "animated flash");
-//   },function(){
-//   $("img").css("");
-// });
 
 
 $(document).ready(function () {
-  var animations = [ 'hop',
+  var animations = [ 
+            'hop',
             'spin',
-            'horray'
-             ];
+            ];
 
   function getRandomInt (min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+    return Math.floor(Math.random() * (max - min + 1));
   }
 
   $('.one').mouseover(function () {
     var fortune = this;
-    var animation = animations[getRandomInt(0, 3)];
+    var animation = animations[getRandomInt(0, 1)];
 
     $(fortune).addClass(animation);
 
@@ -105,7 +100,7 @@ $(document).ready(function () {
 
   $('.two').mouseover(function () {
     var fortune = this;
-    var animation = animations[getRandomInt(0, 3)];
+    var animation = animations[getRandomInt(0, 1)];
 
     $(fortune).addClass(animation);
 
@@ -116,7 +111,7 @@ $(document).ready(function () {
 
   $('.three').mouseover(function () {
     var fortune = this;
-    var animation = animations[getRandomInt(0, 3)];
+    var animation = animations[getRandomInt(0, 1)];
 
     $(fortune).addClass(animation);
 
@@ -127,7 +122,7 @@ $(document).ready(function () {
 
   $('.four').mouseover(function () {
     var fortune = this;
-    var animation = animations[getRandomInt(0, 3)];
+    var animation = animations[getRandomInt(0, 2)];
 
     $(fortune).addClass(animation);
 

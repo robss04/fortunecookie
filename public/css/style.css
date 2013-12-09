@@ -69,5 +69,41 @@ body {
   border-radius: 4px;
 }
 
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -120px; 
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+.footer, .wrapper:after {
+  /* .push must be the same height as footer */
+  height: 50; 
+}
+
+.footer {
+  text-align: right; 
+  font-size: 16px;
+  margin-right: 10px;  
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #9ACD32;
+}
 
 

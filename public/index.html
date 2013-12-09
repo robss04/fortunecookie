@@ -14,30 +14,36 @@
   </head>
 
   <body>
-    
-    <div id="title">
-      <h2>What's <span style="font-family: 'Loved by the King', cursive; font-size: 69px; color: #9ACD32;">your</span></h2> 
-      <h1>fortune?</h1>
-    </div>
+    <div class="wrapper">
+      <div id="title">
+        <h2>What's <span style="font-family: 'Loved by the King', cursive; font-size: 69px; color: #9ACD32;">your</span></h2> 
+        <h1>fortune?</h1>
+      </div>
 
-    <div id="fortune" style="display:none;">
+      <div id="fortune" style="display:none;">
+        
+      </div>
+
+      <div id="button" class="animated flash">
+        <button onclick="fortuneFall()">click</button>
+      </div>
       
+
+      <div id="fortunecookies" style="display:none;">
+        <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="one">
+        <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="two">
+        <br>
+        <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="three">
+        <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="four">
+      </div>
     </div>
 
-    <div id="button" class="animated flash">
-      <button onclick="fortuneFall()">click</button>
+    <div class="footer">
+      <a href="https://twitter.com/robynsteinberg" target="_blank">@robynsteinberg</a>
+      <br>
+      <div class="fb-like" data-href="http://whats-your-fortune.herokuapp.com/" data-width="100" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
     </div>
     
-
-    <div id="fortunecookies" style="display:none;">
-      <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="one">
-      <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="two">
-      <br>
-      <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="three">
-      <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="four">
-    </div>
-
-
       <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
       <script type="text/javascript" src="js/script.js"></script>
   </body>

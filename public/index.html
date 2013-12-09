@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Ribeye+Marrow' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Loved+by+the+King' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Andika' rel='stylesheet' type='text/css'>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="animate.css" rel="stylesheet">
+      <title>
+        Fortune Cookie
+      </title>
+  </head>
+
+  <body>
+    
+    <div id="title">
+      <h2>What's <span style="font-family: 'Loved by the King', cursive; font-size: 69px; color: #9ACD32;">your</span></h2> 
+      <h1>fortune?</h1>
+    </div>
+
+    <div id="fortune" style="display:none;">
+      
+    </div>
+
+    <div id="button" class="animated flash">
+      <button onclick="fortuneFall()">click</button>
+    </div>
+    
+
+    <div id="fortunecookies" style="display:none;">
+      <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="one">
+      <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="two">
+      <br>
+      <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="three">
+      <img onclick="pickOne()" src="images/fortunecookies.png" alt="lucky you" class="four">
+    </div>
+
+
+
+      <!-- div id="buttonRefresh" style="display:none;">
+        <button onclick="showCookies()">get another fortune</button>
+      </div>
+ -->
+
+      <script type="text/javascript" src="jquery-1.10.2.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
+
+
+
+

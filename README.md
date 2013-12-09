@@ -1,4 +1,4 @@
-fortunecookie
-=============
+fortune
+=======
 
 Fortune cookie teller
